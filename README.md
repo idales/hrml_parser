@@ -11,7 +11,7 @@ the second with direct stream search. Approaches are switched with
 
 ## Building application
 
-To build application, CMake minimum version 3.10 and compiler with  C++17 support required.
+To build application, CMake minimum version 3.10 and compiler with  C++17 support required. Use following steps.
 
 - ```git clone https://github.com/idales/hrml_parser```to clone repository.
 - ```mkdir build && cd build``` in repository folder to create build folder.

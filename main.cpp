@@ -129,7 +129,7 @@ try
 
     auto input = prepare_input(*config);
 
-    std::unique_ptr<ITagValue> parser = make_parser(*config, input.text_stream);
+    auto parser = make_parser(*config, input.text_stream);
 
     std::string query;
     while (getline(input.query_stream, query))
