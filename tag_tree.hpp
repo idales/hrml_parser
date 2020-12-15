@@ -3,7 +3,6 @@
 #include <memory>
 #include <optional>
 #include <sstream>
-#include <stack>
 #include <stdexcept>
 #include <string>
 #include <vector>
@@ -11,7 +10,7 @@
 #include "alg_interface.h"
 
 // tree solution
-// parse struct into tree and then search path with it
+// parse tag struct from stream into tree and then search path with it
 
 class TagTree : public ITagValue
 {
@@ -155,6 +154,7 @@ public:
                     std::ostringstream out_str;
                     out_str << str_path << "=" << value;
                     res = out_str.str();
+                    break;
                 }
             }
 

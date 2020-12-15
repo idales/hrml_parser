@@ -130,7 +130,8 @@ public:
             }
             else
             {
-                return str_path + "=\"" + find_attr(word)+"\"";
+                res = str_path + "=\"" + find_attr(word)+"\"";
+                break;
             }
         } while (path_pos != str_path.npos);
         return res;
